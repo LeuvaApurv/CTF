@@ -1,4 +1,4 @@
-CTF-Katana
+CTF
 ===============
 
 > Leuva Apurv 
@@ -10,3 +10,42 @@ This repository, at the time of writing, will just host a listing of tools and c
 
 Forensics
 -----------
+
+* `file`
+
+	A command-line tool for file format identification information. Usage is `file [filename]` .
+
+```
+  sudo apt install file
+```
+
+* [`hex editer`][hexed.it]
+
+	An online tool that allows you to modify the hexadecimal and binary values of an uploaded file.
+  
+* [`file signatures`][https://www.filesignatures.net/index.php?page=all]
+
+	An online tool that allows you to verify file signatures.[trusted list of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures).
+
+* `binwalk`
+
+	A command-line tool to carve files out of another file. Usage to extract is `binwalk -e [filename]` and it will create a `_[filename]_extracted` directory. and also use this `binwalk binwalk --dd='.*' [filename]` .
+
+```
+	sudo apt install binwalk
+```
+
+* `foremost`
+
+	A command-line tool to carve files out of another file. Usage is `foremost [filename]` and it will create an `output` directory.
+
+```
+sudo apt install foremost
+```
+* `exiftool`
+
+	A command-line tool for matadata information. Usage is `exiftool [filename]` .
+
+```
+sudo apt install exiftool
+```
