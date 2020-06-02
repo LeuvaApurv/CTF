@@ -77,7 +77,7 @@ sudo apt install exiftool
 Image File Forensics
 --------------------
 
-:fa-star: [`AperiSolve`](https://aperisolve.fr/)
+(#) :fa-star: [`AperiSolve`](https://aperisolve.fr/)
 	
 	Aperi'Solve is a platform which performs layer analysis on image (open-source).
 
