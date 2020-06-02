@@ -58,14 +58,6 @@ sudo apt install foremost
 sudo apt install exiftool
 ```
 
-* `exiftool`
-
-	A command-line tool for matadata information. Usage is `exiftool [filename]` .
-
-```
-sudo apt install exiftool
-```
-
 * [`TestDisk`](https://www.cgsecurity.org/wiki/TestDisk)
 
 	A command-line tool, used to recover deleted files from a file system image. Handy to use if given a `.dd` and `.img` file etc.
@@ -74,10 +66,13 @@ sudo apt install exiftool
 
 	Another command-line utility that comes with `testdisk`. It is file data recovery software designed to recover lost files including video, documents and archives from hard disks, CD-ROMs, and lost pictures (thus the Photo Recovery name) from digital camera memory. PhotoRec ignores the file system and goes after the underlying data, so it will still work even if your media's file system has been severely damaged or reformatted. 
 	
+
 Image File Forensics
 --------------------
 
-- [`AperiSolve`](https://aperisolve.fr/)
+* [`AperiSolve`](https://aperisolve.fr/)
 	
-	Aperi'Solve is a platform which performs layer analysis on image (open-source).
+	Aperi'Solve is an online platform which performs layer analysis on image. The platform also uses zsteg, steghide, outguess, exiftool, binwalk, foremost and strings for deeper steganography analysis. The platform supports the following images format: .png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff ...
+	
 
+	
