@@ -70,6 +70,6 @@ sudo apt install exiftool
 
 	A command-line tool, used to recover deleted files from a file system image. Handy to use if given a `.dd` and `.img` file etc.
 	
-* [photorec]
+* [`photorec`](https://www.cgsecurity.org/wiki/PhotoRec)
 
 	Another command-line utility that comes with `testdisk`. It is file data recovery software designed to recover lost files including video, documents and archives from hard disks, CD-ROMs, and lost pictures (thus the Photo Recovery name) from digital camera memory. PhotoRec ignores the file system and goes after the underlying data, so it will still work even if your media's file system has been severely damaged or reformatted. 
