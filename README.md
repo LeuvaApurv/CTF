@@ -8,8 +8,8 @@ CTF
 This repository, at the time of writing, will just host a listing of tools and commands that may help with CTF challenges.
 
 
-Forensics
------------
+Forensics & Steganography
+-----------------------------
 
 * `file`
 
@@ -57,3 +57,19 @@ sudo apt install foremost
 ```
 sudo apt install exiftool
 ```
+
+* `exiftool`
+
+	A command-line tool for matadata information. Usage is `exiftool [filename]` .
+
+```
+sudo apt install exiftool
+```
+
+* [`TestDisk`](https://www.cgsecurity.org/wiki/TestDisk)
+
+	A command-line tool, used to recover deleted files from a file system image. Handy to use if given a `.dd` and `.img` file etc.
+	
+* [photorec]
+
+	Another command-line utility that comes with `testdisk`. It is file data recovery software designed to recover lost files including video, documents and archives from hard disks, CD-ROMs, and lost pictures (thus the Photo Recovery name) from digital camera memory. PhotoRec ignores the file system and goes after the underlying data, so it will still work even if your media's file system has been severely damaged or reformatted. 
