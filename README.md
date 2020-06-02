@@ -16,14 +16,14 @@ Forensics
 	A command-line tool for file format identification information. Usage is `file [filename]` .
 
 ```
-  sudo apt install file
+sudo apt install file
 ```
 
-* [`hex editer`][hexed.it]
+* `hex editer`[hexed.it]
 
 	An online tool that allows you to modify the hexadecimal and binary values of an uploaded file.
   
-* [`file signatures`][https://www.filesignatures.net/index.php?page=all]
+* `file signatures`[https://www.filesignatures.net/index.php?page=all]
 
 	An online tool that allows you to verify file signatures.[trusted list of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures).
 
@@ -32,7 +32,7 @@ Forensics
 	A command-line tool to carve files out of another file. Usage to extract is `binwalk -e [filename]` and it will create a `_[filename]_extracted` directory. and also use this `binwalk binwalk --dd='.*' [filename]` .
 
 ```
-	sudo apt install binwalk
+sudo apt install binwalk
 ```
 
 * `foremost`
