@@ -72,7 +72,22 @@ Image File Forensics
 
 * **[`AperiSolve`](https://aperisolve.fr/)**
 	
-	Aperi'Solve is an online platform which performs layer analysis on image. The platform also uses **zsteg, steghide, outguess, exiftool, binwalk, foremost and strings** for deeper steganography analysis. The platform supports the following images format: ** .png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff ... **
+	Aperi'Solve is an online platform which performs layer analysis on image. The platform also uses **zsteg, steghide, outguess, exiftool, binwalk, foremost and strings** for deeper steganography analysis. The platform supports the following images format: .png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff ...
+	
+
+* **`pngcheck`**
+
+	A command-line tool for **checking** a PNG image file. Especially good for verifying checksums.
+
+* **`pngtools`**
+
+	A command-line tool for various analysis related to PNGs.
+	
+```
+apt-get install pngtools
+```
+
+
 	
 
 	
