@@ -27,6 +27,14 @@ sudo apt install file
 
 	An online tool that allows you to verify file signatures. [Trusted list of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures).
 
+* `strings`
+
+	A command-line tool to search for all plain-text strings in the file. Usage is `strings -o [filename]` .
+
+```
+sudo apt install strings
+```
+
 * `binwalk`
 
 	A command-line tool to carve files out of another file. Usage to extract is `binwalk -e [filename]` and it will create a `_[filename]_extracted` directory. and also use this `binwalk binwalk --dd='.*' [filename]` .
@@ -37,7 +45,7 @@ sudo apt install binwalk
 
 * `foremost`
 
-	A command-line tool to carve files out of another file. Usage is `foremost [filename]` and it will create an `output` directory.
+	A command-line tool to carve files out of another file. Usage is `foremost -i [filename]` and it will create an `output` directory.
 
 ```
 sudo apt install foremost
