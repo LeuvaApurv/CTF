@@ -11,7 +11,7 @@ This repository, at the time of writing, will just host a listing of tools and c
 Forensics & Steganography
 -----------------------------
 
-* `file`
+* **`file`**
 
 	A command-line tool for file format identification information. Usage is `file [filename]` .
 
@@ -19,7 +19,7 @@ Forensics & Steganography
 sudo apt install file
 ```
 
-* [`hex editer`](hexed.it)
+* **[`hex editer`](hexed.it)**
 
 	An online tool that allows you to modify the hexadecimal and binary values of an uploaded file.
   
