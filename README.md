@@ -1,4 +1,4 @@
-CTF
+# CTF
 ===============
 
 > Leuva Apurv 
@@ -8,28 +8,28 @@ CTF
 This repository will just host a listing of tools and commands that may help with CTF challenges.
 
 
-Forensics & Steganography
+## Forensics & Steganography
 -----------------------------
 
-* **`file`**
+### * **`file`**
 
 	A command-line tool for file format identification information. 
 	
 	Usage is **`file [filename]`** .
 
-```
-sudo apt install file
-```
+ ```
+ sudo apt install file
+ ```
 
-* **[`hex editer`](hexed.it)**
+### * **[`hex editer`](hexed.it)**
 
 	An online tool that allows you to modify the hexadecimal and binary values of an uploaded file.
   
-* **[`file signatures`](https://www.filesignatures.net/index.php?page=all)**
+### * **[`file signatures`](https://www.filesignatures.net/index.php?page=all)**
 
 	An online tool that allows you to verify file signatures. [Trusted list of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures).
 
-* **`strings`**
+### * **`strings`**
 
 	A command-line tool to search for all plain-text strings in the file.
 	
@@ -39,17 +39,17 @@ sudo apt install file
 sudo apt install strings
 ```
 
-* **`binwalk`**
+### * **`binwalk`**
 
 	A command-line tool to carve files out of another file. 
 	
 	Usage to extract is **`binwalk -e [filename]`** and it will create a `_[filename]_extracted` directory. and also use this **`binwalk binwalk --dd='.*' [filename]`**.
 
-```
+``` 
 sudo apt install binwalk
 ```
 
-* **`foremost`**
+### * **`foremost`**
 
 	A command-line tool to carve files out of another file.
 		
@@ -59,7 +59,7 @@ sudo apt install binwalk
 sudo apt install foremost
 ```
 
-* **`exiftool`***
+### * **`exiftool`***
 
 	A command-line tool for matadata information. 
 	
@@ -69,23 +69,23 @@ sudo apt install foremost
 sudo apt install exiftool
 ```
 
-* **[`TestDisk`](https://www.cgsecurity.org/wiki/TestDisk)**
+### * **[`TestDisk`](https://www.cgsecurity.org/wiki/TestDisk)**
 
 	A command-line tool, used to recover deleted files from a file system image. Handy to use if given a `.dd` and `.img` file etc.
 	
-* **[`PhotoRec`](https://www.cgsecurity.org/wiki/PhotoRec)**
+### * **[`PhotoRec`](https://www.cgsecurity.org/wiki/PhotoRec)**
 
 	Another command-line utility that comes with `testdisk`. It is file data recovery software designed to recover lost files including video, documents and archives from hard disks, CD-ROMs, and lost pictures (thus the Photo Recovery name) from digital camera memory. PhotoRec ignores the file system and goes after the underlying data, so it will still work even if your media's file system has been severely damaged or reformatted. 
 	
 
-Image File Forensics
+## Image File Forensics
 --------------------
 
-* **[`AperiSolve`](https://aperisolve.fr/)**
+### * **[`AperiSolve`](https://aperisolve.fr/)**
 	
 	Aperi'Solve is an online platform which performs layer analysis on image. The platform also uses **zsteg, steghide, outguess, exiftool, binwalk, foremost and strings** for deeper steganography analysis. The platform supports the following images format: **.png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff** ...
 
-* **`pngcheck`**
+### * **`pngcheck`**
 
 	A command-line tool for **checking** a PNG image file. Especially good for verifying checksums.
 	
@@ -94,7 +94,7 @@ Image File Forensics
 sudo apt install pngcheck
 ```
 
-* **`steghide`**
+### * **`steghide`**
 	
 	A command-line tool for steganography program that hides data in various kinds of image and audio files , only supports these file formats : **JPEG, BMP, WAV and AU**. but it’s also useful for extracting embedded and encrypted data from other files.
 	
@@ -104,7 +104,7 @@ sudo apt install pngcheck
 sudo apt install steghide
 ```
 	
-* **`zsteg`**
+### * **`zsteg`**
 
 	A command-line tool that can detect hidden data in **png and bmp** files.
 	
@@ -113,7 +113,7 @@ sudo apt install steghide
 sudo gem install zsteg
 ```
 
-* **`Stegsolve`**
+### * **`Stegsolve`**
 	
 	Sometimes there is a **message or a text hidden** in the image itself and in order to view it you need to apply some color filters or play with the color levels. 
 	
