@@ -13,7 +13,9 @@ Forensics & Steganography
 
 * **`file`**
 
-	A command-line tool for file format identification information. Usage is **`file [filename]`** .
+	A command-line tool for file format identification information. 
+	
+	Usage is **`file [filename]`** .
 
 ```
 sudo apt install file
@@ -29,7 +31,9 @@ sudo apt install file
 
 * **`strings`**
 
-	A command-line tool to search for all plain-text strings in the file. Usage is **`strings -o [filename]`**.
+	A command-line tool to search for all plain-text strings in the file.
+	
+	Usage is **`strings -o [filename]`**.
 
 ```
 sudo apt install strings
@@ -37,7 +41,9 @@ sudo apt install strings
 
 * **`binwalk`**
 
-	A command-line tool to carve files out of another file. Usage to extract is **`binwalk -e [filename]`** and it will create a `_[filename]_extracted` directory. and also use this **`binwalk binwalk --dd='.*' [filename]`**.
+	A command-line tool to carve files out of another file. 
+	
+	Usage to extract is **`binwalk -e [filename]`** and it will create a `_[filename]_extracted` directory. and also use this **`binwalk binwalk --dd='.*' [filename]`**.
 
 ```
 sudo apt install binwalk
@@ -45,14 +51,19 @@ sudo apt install binwalk
 
 * **`foremost`**
 
-	A command-line tool to carve files out of another file. Usage is **`foremost -i [filename]`** and it will create an `output` directory.
+	A command-line tool to carve files out of another file.
+		
+	Usage is **`foremost -i [filename]`** and it will create an `output` directory.
 
 ```
 sudo apt install foremost
 ```
+
 * **`exiftool`***
 
-	A command-line tool for matadata information. Usage is **`exiftool [filename]`**.
+	A command-line tool for matadata information. 
+	
+	Usage is **`exiftool [filename]`**.
 
 ```
 sudo apt install exiftool
@@ -72,22 +83,44 @@ Image File Forensics
 
 * **[`AperiSolve`](https://aperisolve.fr/)**
 	
-	Aperi'Solve is an online platform which performs layer analysis on image. The platform also uses **zsteg, steghide, outguess, exiftool, binwalk, foremost and strings** for deeper steganography analysis. The platform supports the following images format: .png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff ...
-	
+	Aperi'Solve is an online platform which performs layer analysis on image. The platform also uses **zsteg, steghide, outguess, exiftool, binwalk, foremost and strings** for deeper steganography analysis. The platform supports the following images format: **.png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff** ...
 
 * **`pngcheck`**
 
 	A command-line tool for **checking** a PNG image file. Especially good for verifying checksums.
-
-* **`pngtools`**
-
-	A command-line tool for various analysis related to PNGs.
 	
+	Usage is **`pngcheck [filename]`**.
 ```
-apt-get install pngtools
+sudo apt install pngcheck
 ```
 
-
+* **`steghide`**
 	
-
+	A command-line tool for steganography program that hides data in various kinds of image and audio files , only supports these file formats : **JPEG, BMP, WAV and AU**. but it’s also useful for extracting embedded and encrypted data from other files.
 	
+	Usage is **`steghide info [filename]`**
+	and **`steghide extract -sf [filename]`**.	
+```
+sudo apt install steghide
+```
+	
+* **`zsteg`**
+
+	A command-line tool that can detect hidden data in **png and bmp** files.
+	
+	Usage is **`zsteg -a [filename]`**
+```
+sudo gem install zsteg
+```
+
+* **`Stegsolve`**
+	
+	Sometimes there is a **message or a text hidden** in the image itself and in order to view it you need to apply some color filters or play with the color levels. 
+	
+	Usage is **`./stegsolve`**
+	Just open the image with this tool and clinck on the  **`<`  `>`** buttons.
+```
+wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
+chmod +x stegsolve.jar
+```
+
