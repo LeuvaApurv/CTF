@@ -1,10 +1,10 @@
-# CTF
+#  :sunglasses: CTF  :sunglasses:
 
 > Leuva Apurv  |  August 21, 2020
 
 --------------------------
 
-This repository, at the time of writing, will just host a listing of tools and commands that may help with CTF challenges.
+This repository, at the time of writing, will just host a listing of tools and commands that may help with CTF challenges :wink:.
 
 
 ## Forensics & Steganography
