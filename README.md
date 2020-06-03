@@ -118,7 +118,7 @@ sudo gem install zsteg
 	Sometimes there is a **message or a text hidden** in the image itself and in order to view it you need to apply some color filters or play with the color levels. 
 	
 	Usage is **`./stegsolve`**
-	Just open the image with this tool and clinck on the  **`<`  `>`** buttons.
+	Just open the image with this tool and click on the  **`<`  `>`** buttons.
 ```
 wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
 chmod +x stegsolve.jar
