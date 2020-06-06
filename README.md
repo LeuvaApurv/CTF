@@ -20,7 +20,7 @@ Usage is **`file [filename]`** .
  sudo apt install file
  ```
 
-### ☛[`hex editer`](hexed.it)
+### ☛[`hex editer`](https://hexed.it)
 
 An online tool that allows you to modify the hexadecimal and binary values of an uploaded file.
   
