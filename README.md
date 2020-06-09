@@ -161,7 +161,8 @@ chmod +x stegsolve.jar
 	\, | .!
 	
 ### ☛ [`Phone Keypad`](https://www.dcode.fr/multitap-abc-cipher)
-* Some messages may be hidden with a string of numbers, but really be encoded with old cell-phone keypads, like text messaging with numbers repeated:
+
+* The ciphered message is made of numbers with **digits often repeated consecutively, between 1 and 3 times**, there a **few or none 1 or 0**.
 
 ![PhoneKeypad](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov)
 
