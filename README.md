@@ -138,13 +138,28 @@ chmod +x stegsolve.jar
 	Payload
 	Signature
 	```
-
+	
 ### ☛ [`Brainfuck`](https://www.splitbrain.org/_static/ook/)
 
 * Brain Fuck is not a proper encryption system, but rather a programming language that has been obfuscated.
 * Only these characters are used by the **encryption: `< > + * . , [ ]`**. 
 
+### ☛ [`Ook!`](https://www.splitbrain.org/_static/ook/)
 
+* Ook is a rewriting of the BrainFuck, an already obfuscated esoteric programming language, designed to be writable and readable by orang-utans (which would communicate by pronouncing the onomatopoeia 'ook, ook').
+* The message consists of the words **Ook followed by `. (dot) or ? (question mark) or ! (exclamation mark)`**
 
+	Brainfuck | Ook
+	--------- | ----
+	\+ | ..
+	\- | !!
+	\> | .?
+	\< | ?.
+	\[ | ! ?
+	\] | ?!
+	\. | !.
+	\, | .!
+	
+	
 
 
