@@ -8,7 +8,6 @@ This repository, at the time of writing, will just host a listing of tools and c
 
 
 ## Forensics & Steganography
------------------------------
 
 ### ☛ `file`
 
@@ -124,7 +123,6 @@ chmod +x stegsolve.jar
 ```
 
 ## Cryptography
-----------------
 
 ### ☛ [`base32`](https://emn178.github.io/online-tools/base32_decode.html)
 
