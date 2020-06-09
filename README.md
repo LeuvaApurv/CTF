@@ -123,3 +123,14 @@ wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
 chmod +x stegsolve.jar
 ```
 
+## Cryptography
+----------------
+
+### ☛ [`base32 & base64`](https://emn178.github.io/online-tools/)
+
+Base32 : The length of a **Base32-encoded** string is always a **multiple of 8**. Only these characters are used by the **encryption: `ABCDEFGHIJKLMNOPQRSTUVWXYZ234567 =` (no 0,1,8,9)**. The end with two times using the  **“=” character**. (this character is allowed in the end only)
+
+
+Base64 : The length of a **Base64-encoded** string is always a **multiple of 4**. Only these characters are used by the **encryption: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=`**. The end with two times using the  **0,1,3,4,6 or “=” character**. It has a length greater than 40 to 60% of the original message.
+
+### ☛ [``]()
