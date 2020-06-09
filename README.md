@@ -9,7 +9,7 @@ This repository, at the time of writing, will just host a listing of tools and c
 
 ## Forensics & Steganography
 
-### ☛ `file`
+### ☛ `File`
 
 * A command-line tool for file format identification information. 
 * Usage is **`file [filename]`** .
@@ -18,15 +18,15 @@ This repository, at the time of writing, will just host a listing of tools and c
  sudo apt install file
  ```
 
-### ☛[`hex editer`](https://hexed.it)
+### ☛[`Hex Editer`](https://hexed.it)
 
 * An online tool that allows you to modify the hexadecimal and binary values of an uploaded file.
   
-### ☛ [`file signatures`](https://www.filesignatures.net/index.php?page=all)
+### ☛ [`File Signatures`](https://www.filesignatures.net/index.php?page=all)
 
 * An online tool that allows you to verify file signatures. [Trusted list of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures).
 
-### ☛ `strings`
+### ☛ `Strings`
 
 * A command-line tool to search for all plain-text strings in the file.
 * Usage is **`strings -o [filename]`**.
@@ -35,7 +35,7 @@ This repository, at the time of writing, will just host a listing of tools and c
 sudo apt install strings
 ```
 
-### ☛ `binwalk`
+### ☛ `Binwalk`
 
 * A command-line tool to carve files out of another file. 
 * Usage to extract is **`binwalk -e [filename]`** and it will create a `_[filename]_extracted` directory. and also use this **`binwalk binwalk --dd='.*' [filename]`**.
@@ -44,7 +44,7 @@ sudo apt install strings
 sudo apt install binwalk
 ```
 
-### ☛ `foremost`
+### ☛ `Foremost`
 
 * A command-line tool to carve files out of another file.
 		
@@ -54,7 +54,7 @@ Usage is **`foremost -i [filename]`** and it will create an `output` directory.
 sudo apt install foremost
 ```
 
-### ☛`exiftool`
+### ☛`Exiftool`
 
 * A command-line tool for matadata information. 
 
@@ -73,7 +73,7 @@ sudo apt install exiftool
 * The platform also uses **zsteg, steghide, outguess, exiftool, binwalk, foremost and strings** for deeper steganography analysis. 
 * The platform supports the following images format: **.png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff** ...
 
-### ☛ `pngcheck`
+### ☛ `Pngcheck`
 
 * A command-line tool for **checking** a PNG image file. Especially good for verifying checksums.
 * Usage is **`pngcheck [filename]`**.
@@ -82,7 +82,7 @@ sudo apt install exiftool
 sudo apt install pngcheck
 ```
 
-### ☛ `steghide`
+### ☛ `Steghide`
 	
 * A command-line tool for steganography program that hides data in various kinds of image and audio files.
 * Only supports these file formats : **JPEG, BMP, WAV and AU**. 
@@ -94,7 +94,7 @@ sudo apt install pngcheck
 sudo apt install steghide
 ```
 	
-### ☛ `zsteg`
+### ☛ `Zsteg`
 
 * A command-line tool that can detect hidden data in **png and bmp** files.
 * Usage is **`zsteg -a [filename]`**.
@@ -116,13 +116,13 @@ chmod +x stegsolve.jar
 
 ## Cryptography
 
-### ☛ [`base32`](https://emn178.github.io/online-tools/base32_decode.html)
+### ☛ [`Base32`](https://emn178.github.io/online-tools/base32_decode.html)
 
 * The length of a **Base32-encoded** string is always a **multiple of 8**. 
 * Only these characters are used by the **encryption: `ABCDEFGHIJKLMNOPQRSTUVWXYZ234567 =` (no 0,1,8,9)**. 
 * The end with two times using the  **“=” character**. (this character is allowed in the end only)
 
-### ☛ [`base64`](https://www.base64decode.org/)
+### ☛ [`Base64`](https://www.base64decode.org/)
 
 * The length of a **Base64-encoded** string is always a **multiple of 4**. 
 * Only these characters are used by the **encryption: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=`**. 
