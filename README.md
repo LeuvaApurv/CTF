@@ -126,11 +126,25 @@ chmod +x stegsolve.jar
 ## Cryptography
 ----------------
 
-### ☛ [`base32 & base64`](https://emn178.github.io/online-tools/)
+### ☛ [`base32`](https://emn178.github.io/online-tools/base32_decode.html)
 
 Base32 : The length of a **Base32-encoded** string is always a **multiple of 8**. Only these characters are used by the **encryption: `ABCDEFGHIJKLMNOPQRSTUVWXYZ234567 =` (no 0,1,8,9)**. The end with two times using the  **“=” character**. (this character is allowed in the end only)
 
+### ☛ [`base64`](https://www.base64decode.org/)
 
 Base64 : The length of a **Base64-encoded** string is always a **multiple of 4**. Only these characters are used by the **encryption: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=`**. The end with two times using the  **0,1,3,4,6 or “=” character**. It has a length greater than 40 to 60% of the original message.
 
+### ☛ [`JSON Web Tokens`](https://jwt.io/#debugger-io)
+
+JWT typically looks like `xxxxx.yyyyy.zzzzz` .
+
+JSON Web Tokens consist of three parts separated by **dots (.)**, which are:
+
+    Header
+    Payload
+    Signature
+
 ### ☛ [``]()
+
+
+
