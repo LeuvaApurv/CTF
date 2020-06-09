@@ -133,9 +133,11 @@ chmod +x stegsolve.jar
 
 * JWT typically looks like `xxxxx.yyyyy.zzzzz` .
 * JSON Web Tokens consist of three parts separated by **dots (.)**, which are:
-	`Header
-    	`Payload
-    	`Signature
+	```
+	Header
+	Payload
+	Signature
+	```
 
 ### ☛ [`Brainfuck`](https://www.splitbrain.org/_static/ook/)
 
