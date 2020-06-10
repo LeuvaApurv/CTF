@@ -4,7 +4,7 @@
 
 --------------------------
 
-This repository, at the time of writing, will just host a listing of tools and commands that may help with CTF challenges :wink:.
+This repository, at the time of writing, will just host a listing of online tools and commands that may help with CTF challenges :wink:.
 
 
 ## Forensics & Steganography
@@ -160,12 +160,12 @@ Example:
 
 ### ☛ [`Brainfuck`](https://www.splitbrain.org/_static/ook/)
 
-* Brain Fuck is not a proper encryption system, but rather a programming language that has been obfuscated.
+* **Brain Fuck** is not a proper **encryption system**, but rather a programming language that has been **obfuscated**.
 * Only these characters are used by the **encryption: `< > + * . , [ ]`**. 
 
 ### ☛ [`Ook!`](https://www.splitbrain.org/_static/ook/)
 
-* Ook is a rewriting of the BrainFuck, an already obfuscated esoteric programming language, designed to be writable and readable by orang-utans (which would communicate by pronouncing the onomatopoeia 'ook, ook').
+* **Ook** is a rewriting of the **BrainFuck**, an already obfuscated esoteric programming language, designed to be **writable and readable by orang-utans** (which would communicate by pronouncing the onomatopoeia 'ook, ook').
 * The message consists of the words **Ook followed by `. (dot) or ? (question mark) or ! (exclamation mark)`**
 
 	Brainfuck | Ook
@@ -215,6 +215,11 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 	3. Get character of **ASCII code from ASCII table**
 	4. Continue with **next byte**
 
-### ☛ [``]()
+### ☛ [`Fernet`](https://asecuritysite.com/encryption/ferdecode)
+
+* **Fernet** is a symmetric encryption method which makes sure that the message **encrypted cannot be manipulated/read** without the **key**.  
+* It uses **URL safe encoding** for the **keys**. also **keys** look like **Base64**.
+* Fernet uses **128-bit AES in CBC mode and PKCS7 padding**, with **HMAC using SHA256** for authentication.
 	
 
+### ☛ [``]()
