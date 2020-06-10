@@ -12,6 +12,7 @@ This repository, at the time of writing, will just host a listing of online tool
 ### ☛ `File`
 
 * A command-line tool for file format identification information. 
+
 * Usage is **`file [filename]`** .
 
  ```
@@ -29,6 +30,7 @@ This repository, at the time of writing, will just host a listing of online tool
 ### ☛ `Strings`
 
 * A command-line tool to search for all plain-text strings in the file.
+
 * Usage is **`strings -o [filename]`**.
 
 ```
@@ -38,6 +40,7 @@ sudo apt install strings
 ### ☛ `Binwalk`
 
 * A command-line tool to carve files out of another file. 
+
 * Usage to extract is **`binwalk -e [filename]`** and it will create a `_[filename]_extracted` directory. and also use this **`binwalk binwalk --dd='.*' [filename]`**.
 
 ``` 
@@ -70,12 +73,15 @@ sudo apt install exiftool
 ### ☛ [`AperiSolve`](https://aperisolve.fr/)
 	
 * Aperi'Solve is an online platform which performs layer analysis on image. 
+
 * The platform also uses **zsteg, steghide, outguess, exiftool, binwalk, foremost and strings** for deeper steganography analysis. 
+
 * The platform supports the following images format: **.png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff** ...
 
 ### ☛ `Pngcheck`
 
 * A command-line tool for **checking** a PNG image file. Especially good for verifying checksums.
+
 * Usage is **`pngcheck [filename]`**.
 
 ```
@@ -85,8 +91,11 @@ sudo apt install pngcheck
 ### ☛ `Steghide`
 	
 * A command-line tool for steganography program that hides data in various kinds of image and audio files.
+
 * Only supports these file formats : **JPEG, BMP, WAV and AU**. 
+
 * But it’s also useful for extracting embedded and encrypted data from other files.
+
 * Usage is **`steghide info [filename]`**
            **`steghide extract -sf [filename]`**.	
 	   
@@ -97,6 +106,7 @@ sudo apt install steghide
 ### ☛ `Zsteg`
 
 * A command-line tool that can detect hidden data in **png and bmp** files.
+
 * Usage is **`zsteg -a [filename]`**.
 
 ```
@@ -106,7 +116,9 @@ sudo gem install zsteg
 ### ☛ `Stegsolve`
 	
 * Sometimes there is a **message or a text hidden** in the image itself and in order to view it you need to apply some color filters or play with the color levels. 
+
 * Usage is **`./stegsolve`**
+
 * Just open the image with this tool and click on the  **`<`  `>`** buttons.
 
 ```
@@ -119,19 +131,25 @@ chmod +x stegsolve.jar
 ### ☛ [`Base32`](https://emn178.github.io/online-tools/base32_decode.html)
 
 * The length of a **Base32-encoded** string is always a **multiple of 8**. 
+
 * Only these characters are used by the **encryption: `ABCDEFGHIJKLMNOPQRSTUVWXYZ234567 =` (no 0,1,8,9)**. 
+
 * The end with two times using the  **“=” character**. (this character is allowed in the end only)
 
 ### ☛ [`Base64`](https://www.base64decode.org/)
 
 * The length of a **Base64-encoded** string is always a **multiple of 4**. 
+
 * Only these characters are used by the **encryption: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=`**. 
+
 * The end with two times using the  **0,1,3,4,6 or “=” character**. 
+
 * It has a length greater than 40 to 60% of the original message.
 
 ### ☛ [`JSON Web Tokens`](https://jwt.io/#debugger-io)
 
 * JWT typically looks like `xxxxx.yyyyy.zzzzz` .
+
 * JSON Web Tokens consist of three parts separated by **dots (.)**, which are:
 	```
 	Header
@@ -142,6 +160,7 @@ chmod +x stegsolve.jar
 ### ☛ [`Tap Code`](https://cryptii.com/pipes/tap-code)
 
 * **Tap code** is composed of a **single character repeated between 1 and 5 times**, a **separator (like /)** can be used, similar to the **Morse Code**.
+
 * The message can be in the form of a **sound or light**, again repetitive.
 
 * The **Tap code cipher** uses a grid of **letters, usually 5x5**, containing **25 of the 26 letters of the alphabet** (a letter is omitted, often the **J**, the **K** or the **Z**).
@@ -156,16 +175,19 @@ Example:
 **5** | V | W | X | Y | Z
 
 * **S** in position **4,3 (line 4 column 3)** corresponds to **4 then 3 DOTS** 
-* so **SHIZU** translates to **`.... ...  .. ...  .. ....  ..... .....  .... .....`**
+
+* Example:  **SHIZU** translates to **`.... ...  .. ...  .. ....  ..... .....  .... .....`**
 
 ### ☛ [`Brainfuck`](https://www.splitbrain.org/_static/ook/)
 
 * **Brain Fuck** is not a proper **encryption system**, but rather a programming language that has been **obfuscated**.
+
 * Only these characters are used by the **encryption: `< > + * . , [ ]`**. 
 
 ### ☛ [`Ook!`](https://www.splitbrain.org/_static/ook/)
 
 * **Ook** is a rewriting of the **BrainFuck**, an already obfuscated esoteric programming language, designed to be **writable and readable by orang-utans** (which would communicate by pronouncing the onomatopoeia 'ook, ook').
+
 * The message consists of the words **Ook followed by `. (dot) or ? (question mark) or ! (exclamation mark)`**
 
 	Brainfuck | Ook
@@ -220,6 +242,14 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 * **Fernet** is a symmetric encryption method which makes sure that the message **encrypted cannot be manipulated/read** without the **key**.  
 * It uses **URL safe encoding** for the **keys**. also **keys** look like **Base64**.
 * Fernet uses **128-bit AES in CBC mode and PKCS7 padding**, with **HMAC using SHA256** for authentication.
-	
+
+* **`gAAAAA`** --> start with this chipher code use in **Fernet encryption**.
+
+* Example:
+
+	Key:  WcZycMDlKc-Kv7JndqvKPgwx73zfET3PFg2C0i60nLw=
+	Token:  gAAAAABe4N-HmvkDc4JSybgwx9vGObpV6C10slGHOcfQHlReeo4GMjYmzFNCkykjwu8Wc8tzGBIwc9H8tYuGPH9YWq3pnLn4GA==
+
+	Decoded: Shizu	
 
 ### ☛ [``]()
