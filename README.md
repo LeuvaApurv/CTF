@@ -166,6 +166,19 @@ chmod +x stegsolve.jar
 
 ![PhoneKeypad](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov)
 
+
+### ☛ [`Keyboard Change Cipher`](https://www.dcode.fr/keyboard-change-cipher)
+
+* The message is a **mono-alphabetic substitution**, no change in **index of coincidence**.
+
+* The **QWERTY** and **AZERTY** keyboards (most commonly used) have several **common pairs (location, letter)** such as the letters **`ERTYUIOPSDFGHJKL`**
+
+Keybord | Alphabate
+------- | ---------  
+QWERTY | QWERTYUIOPASDFGHJKLZXCVBNM
+AZERTY | AZERTYUIOPQSDFGHJKLMWXCVBN
+DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
+
 ### ☛ [`DVORAK Keyboard`](https://www.geocachingtoolbox.com/index.php?lang=en&page=dvorakKeyboard)
 
 ![DvorakKeybord](https://www.geocachingtoolbox.com/pages/dvorakKeyboard/keyboardLayouts.jpg)
