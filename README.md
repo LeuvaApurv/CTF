@@ -245,11 +245,26 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 
 * **`gAAAAA`** --> start with this chipher code use in **Fernet encryption**.
 
-* Example:
+* Example :
+	Key :  WcZycMDlKc-Kv7JndqvKPgwx73zfET3PFg2C0i60nLw=
+	Token :  gAAAAABe4N-HmvkDc4JSybgwx9vGObpV6C10slGHOcfQHlReeo4GMjYmzFNCkykjwu8Wc8tzGBIwc9H8tYuGPH9YWq3pnLn4GA==
 
-	Key:  WcZycMDlKc-Kv7JndqvKPgwx73zfET3PFg2C0i60nLw=
-	Token:  gAAAAABe4N-HmvkDc4JSybgwx9vGObpV6C10slGHOcfQHlReeo4GMjYmzFNCkykjwu8Wc8tzGBIwc9H8tYuGPH9YWq3pnLn4GA==
+	Decoded : Shizu	
+	
+### ☛ [`Malbolge`](http://malbolge.doleczek.pl/)
 
-	Decoded: Shizu	
+* **Malbolge**, invented by Ben Olmstead in 1998, is an esoteric programming language designed to be as difficult to program in as possible.
 
-### ☛ [``]()
+* An esoteric language that looks a lot **like Base85**... but **isn't**.
+
+* Example :
+```
+'&%$#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPlNdibaf_dcbaZ~^]\>ZSw:
+9UTSRQ3IHMFj-,+*)('&%$#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONML
+KJIHGFEDCB^]VUZYXWVOTMLpPONGLKDhU
+```
+Output : Shizu
+
+
+
+
