@@ -155,7 +155,7 @@ chmod +x stegsolve.jar
 	\- | !!
 	\> | .?
 	\< | ?.
-	\[ | ! ?
+	\[ | !?
 	\] | ?!
 	\. | !.
 	\, | .!
@@ -166,4 +166,6 @@ chmod +x stegsolve.jar
 
 ![PhoneKeypad](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov)
 
+### ☛ [`DVORAK Keyboard`](https://www.geocachingtoolbox.com/index.php?lang=en&page=dvorakKeyboard)
 
+![DvorakKeybord](https://www.geocachingtoolbox.com/pages/dvorakKeyboard/keyboardLayouts.jpg)
