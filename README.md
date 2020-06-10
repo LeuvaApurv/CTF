@@ -178,11 +178,11 @@ Output :
 	 	"flag": "Shizu",
 		"Author": "Leuva Apurv",
 		"alg": "HS256"
-		}
+	}
 	PAYLOAD:DATA
 	{
 		"github.com": "LeuvaApurv/CTF"
-		}
+	}
 
 
 ### ☛ [`Tap Code`](https://cryptii.com/pipes/tap-code)
