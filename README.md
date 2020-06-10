@@ -139,6 +139,25 @@ chmod +x stegsolve.jar
 	Signature
 	```
 	
+### ☛ [`Tap Code`](https://cryptii.com/pipes/tap-code)
+
+* **Tap code** is composed of a **single character repeated between 1 and 5 times**, a **separator (like /)** can be used, similar to the **Morse Code**.
+* The message can be in the form of a **sound or light**, again repetitive.
+
+* The **Tap code cipher** uses a grid of **letters, usually 5x5**, containing **25 of the 26 letters of the alphabet** (a letter is omitted, often the **J**, the **K** or the **Z**).
+
+Example:
+ \    | 1 | 2 | 3 | 4 | 5
+--    |-- |-- |-- |-- |--     
+**1** | A | B | C | D | E
+**2** | F | G | H | I | J/K
+**3** | L | M | N | O | P
+**4** | Q | R | S | T | U
+**5** | V | W | X | Y | Z
+
+* **S** in position **4,3 (line 4 column 3)** corresponds to **4 then 3 DOTS** 
+* so **SHIZU** translates to **`.... ...  .. ...  .. ....  ..... .....  .... .....`**
+
 ### ☛ [`Brainfuck`](https://www.splitbrain.org/_static/ook/)
 
 * Brain Fuck is not a proper encryption system, but rather a programming language that has been obfuscated.
@@ -195,4 +214,7 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 	2. Convert **binary byte to decimal**
 	3. Get character of **ASCII code from ASCII table**
 	4. Continue with **next byte**
+
+### ☛ [``]()
+	
 
