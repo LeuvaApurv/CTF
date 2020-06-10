@@ -151,12 +151,29 @@ chmod +x stegsolve.jar
 * JWT typically looks like `xxxxx.yyyyy.zzzzz` .
 
 * JSON Web Tokens consist of three parts separated by **dots (.)**, which are:
-	```
-	Header
-	Payload
-	Signature
-	```
+	1. Header
+	2. Payload
+	3. Signatur
 	
+* Example : 
+
+```
+eyJmbGFnIjoiU2hpenUiLCJBdXRob3IiOiJMZXV2YSBBcHVydiIsImFsZyI6IkhTMjU2In0.eyJnaXRodWIuY29tIjoiTGV1dmFBcHVydi9DVEYifQ.kIO1y_fvqszM0Lqdiz6AWXdlCjb0JmfMoQEYYdQHwmk
+```
+Output :
+
+	HEADER:ALGORITHM & TOKEN TYPE
+	{
+	 	"flag": "Shizu",
+		"Author": "Leuva Apurv",
+		"alg": "HS256"
+		}
+	PAYLOAD:DATA
+	{
+		"github.com": "LeuvaApurv/CTF"
+		}
+
+
 ### ☛ [`Tap Code`](https://cryptii.com/pipes/tap-code)
 
 * **Tap code** is composed of a **single character repeated between 1 and 5 times**, a **separator (like /)** can be used, similar to the **Morse Code**.
