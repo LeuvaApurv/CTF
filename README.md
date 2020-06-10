@@ -146,6 +146,17 @@ chmod +x stegsolve.jar
 
 * It has a length greater than 40 to 60% of the original message.
 
+### ☛ [`Binary`](https://www.rapidtables.com/convert/number/binary-to-ascii.html)
+
+* Convert **Binary code** to **Text**:
+	
+	1. Get **binary byte**
+	2. Convert **binary byte to decimal**
+	3. Get character of **ASCII code from ASCII table**
+	4. Continue with **next byte**
+
+* Example : **Shizu** Translate to **`0101001101101000011010010111101001110101`**
+
 ### ☛ [`JSON Web Tokens`](https://jwt.io/#debugger-io)
 
 * JWT typically looks like `xxxxx.yyyyy.zzzzz` .
@@ -182,7 +193,7 @@ Output :
 
 * The **Tap code cipher** uses a grid of **letters, usually 5x5**, containing **25 of the 26 letters of the alphabet** (a letter is omitted, often the **J**, the **K** or the **Z**).
 
-Example:
+Example :
  \    | 1 | 2 | 3 | 4 | 5
 --    |-- |-- |-- |-- |--     
 **1** | A | B | C | D | E
@@ -193,7 +204,7 @@ Example:
 
 * **S** in position **4,3 (line 4 column 3)** corresponds to **4 then 3 DOTS** 
 
-* Example:  **SHIZU** translates to **`.... ...  .. ...  .. ....  ..... .....  .... .....`**
+* **SHIZU** translates to **`.... ...  .. ...  .. ....  ..... .....  .... .....`**
 
 ### ☛ [`Brainfuck`](https://www.splitbrain.org/_static/ook/)
 
@@ -201,11 +212,24 @@ Example:
 
 * Only these characters are used by the **encryption: `< > + * . , [ ]`**. 
 
-### ☛ [`Ook!`](https://www.splitbrain.org/_static/ook/)
+* Example : 
+```
++++++ ++++[ ->+++ +++++ +<]>+ +.<++ ++[-> ++++< ]>+++ ++.+. <++++ [->++
+++<]> +.--- --.<
+```
+
+Output : Shizu
+
+### ☛ [`Ook`](https://www.splitbrain.org/_static/ook/)
 
 * **Ook** is a rewriting of the **BrainFuck**, an already obfuscated esoteric programming language, designed to be **writable and readable by orang-utans** (which would communicate by pronouncing the onomatopoeia 'ook, ook').
 
 * The message consists of the words **Ook followed by `. (dot) or ? (question mark) or ! (exclamation mark)`**
+
+* This is two type of encoded :
+	
+	1. Ook (Ook? Ook. Ook!)
+	2. Short Ook (?.!) 
 
 	Brainfuck | Ook
 	--------- | ----
@@ -218,9 +242,33 @@ Example:
 	\. | !.
 	\, | .!
 	
+* Example of Ook :
+```
+Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook. Ook?
+Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook? Ook. Ook? Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook! Ook. Ook. Ook. Ook! Ook. Ook? Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook? Ook. Ook? Ook! Ook. Ook? Ook. Ook. Ook! Ook. Ook!
+Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook. Ook? Ook. 
+```
+* Example of Short Ook :
+```
+..... ..... ..... ...!? !!.?. ..... ..... ..... ..?.? !.?.. ..!.? .....
+....! ?!!.? ..... ...?. ?!.?. ..... ....! ...!. ?.... ..... !?!!. ?....
+....? .?!.? ..!.! !!!!! !!!!! .?.
+```
+
+Both Output : Shizu
+	
 ### ☛ [`Phone Keypad`](https://www.dcode.fr/multitap-abc-cipher)
 
 * The ciphered message is made of numbers with **digits often repeated consecutively, between 1 and 3 times**, there a **few or none 1 or 0**.
+
+* Example : **Shizu** Translate to **`7777 44 444 9999 88`**
 
 ![PhoneKeypad](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov)
 
@@ -245,14 +293,6 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 
 * Online tool allows to **Rot1** to **Rot25**.
 
-### ☛ [`Binary`](https://www.rapidtables.com/convert/number/binary-to-ascii.html)
-
-* Convert **Binary code** to **Text**:
-	
-	1. Get **binary byte**
-	2. Convert **binary byte to decimal**
-	3. Get character of **ASCII code from ASCII table**
-	4. Continue with **next byte**
 
 ### ☛ [`Fernet`](https://asecuritysite.com/encryption/ferdecode)
 
