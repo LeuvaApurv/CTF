@@ -182,3 +182,17 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 ### ☛ [`DVORAK Keyboard`](https://www.geocachingtoolbox.com/index.php?lang=en&page=dvorakKeyboard)
 
 ![DvorakKeybord](https://www.geocachingtoolbox.com/pages/dvorakKeyboard/keyboardLayouts.jpg)
+
+### ☛ [`Rot13`](https://rot13.com/)
+
+* Online tool allows to **Rot1** to **Rot25**.
+
+### ☛ [`Binary`](https://www.rapidtables.com/convert/number/binary-to-ascii.html)
+
+* Convert **Binary code** to **Text**:
+	
+	1. Get **binary byte**
+	2. Convert **binary byte to decimal**
+   	3. Get character of **ASCII code from ASCII table**
+	4. Continue with **next byte**
+
