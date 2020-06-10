@@ -193,14 +193,14 @@ eyJmbGFnIjoiU2hpenUiLCJBdXRob3IiOiJMZXV2YSBBcHVydiIsImFsZyI6IkhTMjU2In0.eyJnaXRo
 
 * The **Tap code cipher** uses a grid of **letters, usually 5x5**, containing **25 of the 26 letters of the alphabet** (a letter is omitted, often the **J**, the **K** or the **Z**).
 
-Example :
- \    | 1 | 2 | 3 | 4 | 5
---    |-- |-- |-- |-- |--     
-**1** | A | B | C | D | E
-**2** | F | G | H | I | J/K
-**3** | L | M | N | O | P
-**4** | Q | R | S | T | U
-**5** | V | W | X | Y | Z
+* Example :
+	 \    | 1 | 2 | 3 | 4 | 5
+	--    |-- |-- |-- |-- |--     
+	**1** | A | B | C | D | E
+	**2** | F | G | H | I | J/K
+	**3** | L | M | N | O | P
+	**4** | Q | R | S | T | U
+	**5** | V | W | X | Y | Z
 
 * **S** in position **4,3 (line 4 column 3)** corresponds to **4 then 3 DOTS** 
 
@@ -267,7 +267,7 @@ Example :
 
 * Example : **Shizu** Translate to **`7777 44 444 9999 88`**
 
-![PhoneKeypad](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov)
+	![PhoneKeypad](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov)
 
 
 ### ☛ [`Keyboard Change Cipher`](https://www.dcode.fr/keyboard-change-cipher)
@@ -302,6 +302,7 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 * Example : **Shizu**
 
 	Key :  `WcZycMDlKc-Kv7JndqvKPgwx73zfET3PFg2C0i60nLw=`
+	
 	Token : `gAAAAABe4N-HmvkDc4JSybgwx9vGObpV6C10slGHOcfQHlReeo4GMjYmzFNCkykjwu8Wc8tzGBIwc9H8tYuGPH9YWq3pnLn4GA==`
 
 	
