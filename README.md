@@ -162,18 +162,18 @@ This repository, at the time of writing, will just host a listing of online tool
 	```
 	eyJmbGFnIjoiU2hpenUiLCJBdXRob3IiOiJMZXV2YSBBcHVydiIsImFsZyI6IkhTMjU2In0.eyJnaXRodWIuY29tIjoiTGV1dmFBcHVydi9DVEYifQ.kIO1y_fvqszM0Lqdiz6AWXdlCjb0JmfMoQEYYdQHwmk
 	```
-	Output :
+		Output :
 
-	HEADER:ALGORITHM & TOKEN TYPE
-	{
-	 	"flag": "Shizu",
-		"Author": "Leuva Apurv",
-		"alg": "HS256"
-	}
-	PAYLOAD:DATA
-	{
-		"github.com": "LeuvaApurv/CTF"
-	}
+		HEADER:ALGORITHM & TOKEN TYPE
+		{
+			"flag": "Shizu",
+			"Author": "Leuva Apurv",
+			"alg": "HS256"
+		}
+		PAYLOAD:DATA
+		{
+			"github.com": "LeuvaApurv/CTF"
+		}
 
 
 ### ☛ [`Tap Code`](https://cryptii.com/pipes/tap-code)
@@ -220,18 +220,18 @@ This repository, at the time of writing, will just host a listing of online tool
 	1. **Ook** (Ook? Ook. Ook!)
 	2. **Short Ook** (?.!) 
 
-* **Brainfuck** to **Short Ook** :
+* **Brainfuck** to **Ook** to **Short Ook** :
 
-	Brainfuck | Ook
-	--------- | ----
-	\+ | ..
-	\- | !!
-	\> | .?
-	\< | ?.
-	\[ | !?
-	\] | ?!
-	\. | !.
-	\, | .!
+	Brainfuck | Ook | Short Ook
+	--------- | --- | ---------
+	\+ | Ook. Ook. | ..
+	\- | Ook! Ook! | !!
+	\> | Ook. Ook? | .?
+	\< | Ook? Ook. | ?.
+	\[ | Ook! Ook? | !?
+	\] | Ook? Ook! | ?!
+	\. | Ook! Ook. | !.
+	\, | Ook. Ook! | .!
 	
 * Example of Ook : **Shizu**
 	```
