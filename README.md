@@ -212,13 +212,11 @@ Example :
 
 * Only these characters are used by the **encryption: `< > + * . , [ ]`**. 
 
-* Example : 
+* Example : **Shizu**
 ```
 +++++ ++++[ ->+++ +++++ +<]>+ +.<++ ++[-> ++++< ]>+++ ++.+. <++++ [->++
 ++<]> +.--- --.<
 ```
-
-Output : Shizu
 
 ### ☛ [`Ook`](https://www.splitbrain.org/_static/ook/)
 
@@ -242,7 +240,7 @@ Output : Shizu
 	\. | !.
 	\, | .!
 	
-* Example of Ook :
+* Example of Ook : **Shizu**
 ```
 Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook.
 Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook.
@@ -255,14 +253,13 @@ Ook. Ook. Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook.
 Ook. Ook. Ook. Ook. Ook? Ook. Ook? Ook! Ook. Ook? Ook. Ook. Ook! Ook. Ook!
 Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook. Ook? Ook. 
 ```
-* Example of Short Ook :
+* Example of Short Ook : **Shizu**
 ```
 ..... ..... ..... ...!? !!.?. ..... ..... ..... ..?.? !.?.. ..!.? .....
 ....! ?!!.? ..... ...?. ?!.?. ..... ....! ...!. ?.... ..... !?!!. ?....
 ....? .?!.? ..!.! !!!!! !!!!! .?.
 ```
 
-Both Output : Shizu
 	
 ### ☛ [`Phone Keypad`](https://www.dcode.fr/multitap-abc-cipher)
 
@@ -302,11 +299,11 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 
 * **`gAAAAA`** --> start with this chipher code use in **Fernet encryption**.
 
-* Example :
-	Key :  WcZycMDlKc-Kv7JndqvKPgwx73zfET3PFg2C0i60nLw=
-	Token :  gAAAAABe4N-HmvkDc4JSybgwx9vGObpV6C10slGHOcfQHlReeo4GMjYmzFNCkykjwu8Wc8tzGBIwc9H8tYuGPH9YWq3pnLn4GA==
+* Example : **Shizu**
 
-	Decoded : Shizu	
+	Key :  `WcZycMDlKc-Kv7JndqvKPgwx73zfET3PFg2C0i60nLw=`
+	Token : `gAAAAABe4N-HmvkDc4JSybgwx9vGObpV6C10slGHOcfQHlReeo4GMjYmzFNCkykjwu8Wc8tzGBIwc9H8tYuGPH9YWq3pnLn4GA==`
+
 	
 ### ☛ [`Malbolge`](http://malbolge.doleczek.pl/)
 
@@ -314,13 +311,12 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 
 * An esoteric language that looks a lot **like Base85**... but **isn't**.
 
-* Example :
+* Example : **Shizu**
 ```
 '&%$#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPlNdibaf_dcbaZ~^]\>ZSw:
 9UTSRQ3IHMFj-,+*)('&%$#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONML
 KJIHGFEDCB^]VUZYXWVOTMLpPONGLKDhU
 ```
-Output : Shizu
 
 
 
