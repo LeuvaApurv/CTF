@@ -14,10 +14,9 @@ This repository, at the time of writing, will just host a listing of online tool
 * A command-line tool for file format identification information. 
 
 * Usage is **`file [filename]`** .
-
- ```
- sudo apt install file
- ```
+	 ```
+	 sudo apt install file
+	 ```
 
 ### ☛[`Hex Editer`](https://hexed.it)
 
@@ -32,40 +31,36 @@ This repository, at the time of writing, will just host a listing of online tool
 * A command-line tool to search for all plain-text strings in the file.
 
 * Usage is **`strings -o [filename]`**.
-
-```
-sudo apt install strings
-```
+	```
+	sudo apt install strings
+	```
 
 ### ☛ `Binwalk`
 
 * A command-line tool to carve files out of another file. 
 
 * Usage to extract is **`binwalk -e [filename]`** and it will create a `_[filename]_extracted` directory. and also use this **`binwalk binwalk --dd='.*' [filename]`**.
-
-``` 
-sudo apt install binwalk
-```
+	``` 
+	sudo apt install binwalk
+	```
 
 ### ☛ `Foremost`
 
 * A command-line tool to carve files out of another file.
 		
-Usage is **`foremost -i [filename]`** and it will create an `output` directory.
-
-```
-sudo apt install foremost
-```
+* Usage is **`foremost -i [filename]`** and it will create an `output` directory.
+	```
+	sudo apt install foremost
+	```
 
 ### ☛`Exiftool`
 
 * A command-line tool for matadata information. 
 
-Usage is **`exiftool [filename]`**.
-
-```
-sudo apt install exiftool
-```
+* Usage is **`exiftool [filename]`**.
+	```
+	sudo apt install exiftool
+	```
 
 ## Image File Forensics
 --------------------
@@ -83,10 +78,9 @@ sudo apt install exiftool
 * A command-line tool for **checking** a PNG image file. Especially good for verifying checksums.
 
 * Usage is **`pngcheck [filename]`**.
-
-```
-sudo apt install pngcheck
-```
+	```
+	sudo apt install pngcheck
+	```
 
 ### ☛ `Steghide`
 	
@@ -98,20 +92,18 @@ sudo apt install pngcheck
 
 * Usage is **`steghide info [filename]`**
            **`steghide extract -sf [filename]`**.	
-	   
-```
-sudo apt install steghide
-```
+	```
+	sudo apt install steghide
+	```
 	
 ### ☛ `Zsteg`
 
 * A command-line tool that can detect hidden data in **png and bmp** files.
 
 * Usage is **`zsteg -a [filename]`**.
-
-```
-sudo gem install zsteg
-```
+	```
+	sudo gem install zsteg
+	```
 
 ### ☛ `Stegsolve`
 	
@@ -120,11 +112,10 @@ sudo gem install zsteg
 * Usage is **`./stegsolve`**
 
 * Just open the image with this tool and click on the  **`<`  `>`** buttons.
-
-```
-wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
-chmod +x stegsolve.jar
-```
+	```
+	wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
+	chmod +x stegsolve.jar
+	```
 
 ## Cryptography
 
@@ -140,7 +131,7 @@ chmod +x stegsolve.jar
 
 * The length of a **Base64-encoded** string is always a **multiple of 4**. 
 
-* Only these characters are used by the **encryption: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=`**. 
+* Characters are used by **encryption: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=`**. 
 
 * The end with two times using the  **0,1,3,4,6 or “=” character**. 
 
@@ -168,9 +159,8 @@ chmod +x stegsolve.jar
 	
 * Example : 
 
-```
-eyJmbGFnIjoiU2hpenUiLCJBdXRob3IiOiJMZXV2YSBBcHVydiIsImFsZyI6IkhTMjU2In0.eyJnaXRodWIuY29tIjoiTGV1dmFBcHVydi9DVEYifQ.kIO1y_fvqszM0Lqdiz6AWXdlCjb0JmfMoQEYYdQHwmk
-```
+	```	eyJmbGFnIjoiU2hpenUiLCJBdXRob3IiOiJMZXV2YSBBcHVydiIsImFsZyI6IkhTMjU2In0.eyJnaXRodWIuY29tIjoiTGV1dmFBcHVydi9DVEYifQ.kIO1y_fvqszM0Lqdiz6AWXdlCjb0JmfMoQEYYdQHwmk
+	```
 	Output :
 
 	HEADER:ALGORITHM & TOKEN TYPE
@@ -276,11 +266,11 @@ eyJmbGFnIjoiU2hpenUiLCJBdXRob3IiOiJMZXV2YSBBcHVydiIsImFsZyI6IkhTMjU2In0.eyJnaXRo
 
 * The **QWERTY** and **AZERTY** keyboards (most commonly used) have several **common pairs (location, letter)** such as the letters **`ERTYUIOPSDFGHJKL`**
 
-Keybord | Alphabate
-------- | ---------  
-QWERTY | QWERTYUIOPASDFGHJKLZXCVBNM
-AZERTY | AZERTYUIOPQSDFGHJKLMWXCVBN
-DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
+	Keybord | Alphabate
+	------- | ---------  
+	QWERTY | QWERTYUIOPASDFGHJKLZXCVBNM
+	AZERTY | AZERTYUIOPQSDFGHJKLMWXCVBN
+	DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 
 ### ☛ [`DVORAK Keyboard`](https://www.geocachingtoolbox.com/index.php?lang=en&page=dvorakKeyboard)
 
