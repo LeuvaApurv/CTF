@@ -4,7 +4,7 @@
 
 --------------------------
 
-This repository, at the time of writing, will just host a listing of online tools and commands that may help with CTF challenges :wink:.
+This repository, at the time of writing, will just host a listing of online tools and commands that may help with CTF challenges :wink:
 
 
 ## Forensics & Steganography
@@ -159,7 +159,8 @@ This repository, at the time of writing, will just host a listing of online tool
 	
 * Example : 
 
-	```	eyJmbGFnIjoiU2hpenUiLCJBdXRob3IiOiJMZXV2YSBBcHVydiIsImFsZyI6IkhTMjU2In0.eyJnaXRodWIuY29tIjoiTGV1dmFBcHVydi9DVEYifQ.kIO1y_fvqszM0Lqdiz6AWXdlCjb0JmfMoQEYYdQHwmk
+	```
+	eyJmbGFnIjoiU2hpenUiLCJBdXRob3IiOiJMZXV2YSBBcHVydiIsImFsZyI6IkhTMjU2In0.eyJnaXRodWIuY29tIjoiTGV1dmFBcHVydi9DVEYifQ.kIO1y_fvqszM0Lqdiz6AWXdlCjb0JmfMoQEYYdQHwmk
 	```
 	Output :
 
@@ -214,10 +215,12 @@ This repository, at the time of writing, will just host a listing of online tool
 
 * The message consists of the words **Ook followed by `. (dot) or ? (question mark) or ! (exclamation mark)`**
 
-* This is two type of encoded :
+* This is **two type** of encoded :
 	
-	1. Ook (Ook? Ook. Ook!)
-	2. Short Ook (?.!) 
+	1. **Ook** (Ook? Ook. Ook!)
+	2. **Short Ook** (?.!) 
+
+* **Brainfuck** to **Short Ook** :
 
 	Brainfuck | Ook
 	--------- | ----
