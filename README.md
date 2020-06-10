@@ -171,7 +171,7 @@ chmod +x stegsolve.jar
 ```
 eyJmbGFnIjoiU2hpenUiLCJBdXRob3IiOiJMZXV2YSBBcHVydiIsImFsZyI6IkhTMjU2In0.eyJnaXRodWIuY29tIjoiTGV1dmFBcHVydi9DVEYifQ.kIO1y_fvqszM0Lqdiz6AWXdlCjb0JmfMoQEYYdQHwmk
 ```
-Output :
+	Output :
 
 	HEADER:ALGORITHM & TOKEN TYPE
 	{
@@ -213,10 +213,10 @@ Example :
 * Only these characters are used by the **encryption: `< > + * . , [ ]`**. 
 
 * Example : **Shizu**
-```
-+++++ ++++[ ->+++ +++++ +<]>+ +.<++ ++[-> ++++< ]>+++ ++.+. <++++ [->++
-++<]> +.--- --.<
-```
+	```
+	+++++ ++++[ ->+++ +++++ +<]>+ +.<++ ++[-> ++++< ]>+++ ++.+. <++++ [->++
+	++<]> +.--- --.<
+	```
 
 ### ☛ [`Ook`](https://www.splitbrain.org/_static/ook/)
 
@@ -241,24 +241,24 @@ Example :
 	\, | .!
 	
 * Example of Ook : **Shizu**
-```
-Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook.
-Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook.
-Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook. Ook?
-Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook.
-Ook. Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook.
-Ook. Ook. Ook. Ook? Ook. Ook? Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook.
-Ook. Ook. Ook. Ook. Ook! Ook. Ook. Ook. Ook! Ook. Ook? Ook. Ook. Ook. Ook.
-Ook. Ook. Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook.
-Ook. Ook. Ook. Ook. Ook? Ook. Ook? Ook! Ook. Ook? Ook. Ook. Ook! Ook. Ook!
-Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook. Ook? Ook. 
-```
+	```
+	Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook.
+	Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook.
+	Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook. Ook?
+	Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook.
+	Ook. Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook.
+	Ook. Ook. Ook. Ook? Ook. Ook? Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook.
+	Ook. Ook. Ook. Ook. Ook! Ook. Ook. Ook. Ook! Ook. Ook? Ook. Ook. Ook. Ook.
+	Ook. Ook. Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook.
+	Ook. Ook. Ook. Ook. Ook? Ook. Ook? Ook! Ook. Ook? Ook. Ook. Ook! Ook. Ook!
+	Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook. Ook? Ook. 
+	```
 * Example of Short Ook : **Shizu**
-```
-..... ..... ..... ...!? !!.?. ..... ..... ..... ..?.? !.?.. ..!.? .....
-....! ?!!.? ..... ...?. ?!.?. ..... ....! ...!. ?.... ..... !?!!. ?....
-....? .?!.? ..!.! !!!!! !!!!! .?.
-```
+	```
+	..... ..... ..... ...!? !!.?. ..... ..... ..... ..?.? !.?.. ..!.? .....
+	....! ?!!.? ..... ...?. ?!.?. ..... ....! ...!. ?.... ..... !?!!. ?....
+	....? .?!.? ..!.! !!!!! !!!!! .?.
+	```
 
 	
 ### ☛ [`Phone Keypad`](https://www.dcode.fr/multitap-abc-cipher)
@@ -312,11 +312,11 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 * An esoteric language that looks a lot **like Base85**... but **isn't**.
 
 * Example : **Shizu**
-```
-'&%$#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPlNdibaf_dcbaZ~^]\>ZSw:
-9UTSRQ3IHMFj-,+*)('&%$#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONML
-KJIHGFEDCB^]VUZYXWVOTMLpPONGLKDhU
-```
+	```
+	'&%$#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPlNdibaf_dcbaZ~^]\>ZSw:
+	9UTSRQ3IHMFj-,+*)('&%$#"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONML
+	KJIHGFEDCB^]VUZYXWVOTMLpPONGLKDhU
+	```
 
 
 
