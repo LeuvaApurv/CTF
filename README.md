@@ -193,6 +193,6 @@ DWORAK | PYFGCRLAOEUIDHTNSQJKXBMWVZ
 	
 	1. Get **binary byte**
 	2. Convert **binary byte to decimal**
-   	3. Get character of **ASCII code from ASCII table**
+	3. Get character of **ASCII code from ASCII table**
 	4. Continue with **next byte**
 
