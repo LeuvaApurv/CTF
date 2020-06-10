@@ -312,6 +312,18 @@ This repository, at the time of writing, will just host a listing of online tool
 	KJIHGFEDCB^]VUZYXWVOTMLpPONGLKDhU
 	```
 
+### ☛ [`Serpent`](https://www.tools4noobs.com/online_tools/decrypt/)
+
+* **Serpent** is a symmetric key **block cipher** that was a finalist in the **Advanced Encryption Standard (AES)** contest, where it was ranked second to Rijndael.
+
+* Example : 
+
+		Chiper txt : `Jl/Q/lFSwCBJA5Fx4RikBg==`
+		Key        : Nobi_21
+		Mode       : ECB
+	
+		Output : Shizu
+	
 
 
 
