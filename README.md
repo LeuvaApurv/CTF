@@ -129,7 +129,7 @@ This repository, at the time of writing, will just host a listing of online tool
 
 
 
-## [Cryptography](https://github.com/LeuvaApurv/CTF/blob/master/Challenge%20Types/Cryptography.md)
+## [`Cryptography`](https://github.com/LeuvaApurv/CTF/blob/master/Challenge%20Types/Cryptography.md)
 
 
 
