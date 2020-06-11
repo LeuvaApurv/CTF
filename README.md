@@ -1,6 +1,6 @@
 #  :sunglasses: CTF  :sunglasses:
 
-> Leuva Apurv  |  August 21, 2020
+> Leuva Apurv  |  June 10, 2020
 
 --------------------------
 
@@ -323,7 +323,6 @@ This repository, at the time of writing, will just host a listing of online tool
 		Mode       : ECB
 	
 		Output : Shizu
-	
 
 
 
