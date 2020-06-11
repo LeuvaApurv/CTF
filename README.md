@@ -117,6 +117,18 @@ This repository, at the time of writing, will just host a listing of online tool
 	chmod +x stegsolve.jar
 	```
 
+
+## Audio File Forensics
+------------------------
+
+### ☛ [`Spectral Analysis`](https://www.dcode.fr/spectral-analysis)
+
+* Sometimes a **text (some letters)** or an **image (rather a silhouette)** is hidden in the **sound spectrum**.
+
+* This site allows playback of **audio files** and analysis of sound **frequencies to render** it in different **colors and positioned on a sound frequency axis**.
+
+
+
 ## Cryptography
 
 ### ☛ [`Base32`](https://emn178.github.io/online-tools/base32_decode.html)
