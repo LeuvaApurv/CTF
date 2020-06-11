@@ -285,7 +285,7 @@ This repository, at the time of writing, will just host a listing of online tool
 
 * Example : **Shizu** Translate to **`7777 44 444 9999 88`**
 
-	![PhoneKeypad](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSySxHjMFv80XWp74LZpfrnAro6a1MLqeF1F3zpguA5PGSW9ov)
+	![PhoneKeypad](https://github.com/LeuvaApurv/CTF/blob/master/Image/Phone_Keypad.png)
 
 
 ### ☛ [`Keyboard Change Cipher`](https://www.dcode.fr/keyboard-change-cipher)
@@ -302,7 +302,7 @@ This repository, at the time of writing, will just host a listing of online tool
 
 ### ☛ [`DVORAK Keyboard`](https://www.geocachingtoolbox.com/index.php?lang=en&page=dvorakKeyboard)
 
-![DvorakKeybord](https://www.geocachingtoolbox.com/pages/dvorakKeyboard/keyboardLayouts.jpg)
+![DvorakKeybord](https://github.com/LeuvaApurv/CTF/blob/master/Image/Dvorak_KeyboardLayouts.jpg)
 
 ### ☛ [`Rot13`](https://rot13.com/)
 
