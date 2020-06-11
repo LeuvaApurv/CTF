@@ -142,11 +142,24 @@ This repository, at the time of writing, will just host a listing of online tool
 * Convert **Binary code** to **Text**:
 	
 	1. Get **binary byte**
-	2. Convert **binary byte to decimal**
-	3. Get character of **ASCII code from ASCII table**
+	2. Convert **binary byte** to **decimal**
+	3. Get character of **ASCII code** from **ASCII table**
 	4. Continue with **next byte**
 
 * Example : **Shizu** Translate to **`0101001101101000011010010111101001110101`**
+
+### ☛ [`Hex`](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
+
+* Convert **Hex code** to **Text**:
+	
+	1. Get **hex byte**
+	2. Convert **hex byte** to **decimal**
+	3. Get character of **ASCII code** from **ASCII table**
+	4. Continue with **next byte**
+	
+### ☛ [`Hex To File (binary)`](https://tomeko.net/online_tools/hex_to_file.php?lang=en)4
+
+* Convert **Hex code** to any type of **file**
 
 ### ☛ [`JSON Web Tokens`](https://jwt.io/#debugger-io)
 
