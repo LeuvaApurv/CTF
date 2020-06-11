@@ -1,4 +1,3 @@
-
 ## Cryptography
 
 ### ☛ [`Base32`](https://emn178.github.io/online-tools/base32_decode.html)
